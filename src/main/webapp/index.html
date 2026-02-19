@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Fitness Platform</title>
+</head>
+<body>
+	<h3>Choose your prefered workout</h3>
+	<form method="post" action="StorePreferences">
+		Name: <input type="text" name="username" required><br>
+		Workout type:
+		<select name="workout">
+			<option>Yoga</option><br>
+			<option>HIIT</option><br>
+			<option>Strength Training</option><br>
+		</select><br>
+	<h3>Fitness goal</h3>
+	<select name="goal">
+		<option>Weight loss</option><br>
+		<option>Muscle gain</option><br>
+		<option>Flexibility</option><br>
+	</select><br>
+	<input type="submit" value="Save">
+	</form>
+</body>
+</html>
