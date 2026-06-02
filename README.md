@@ -1,1 +1,1 @@
-Online fitness platform
+Platform for online fitness platform
